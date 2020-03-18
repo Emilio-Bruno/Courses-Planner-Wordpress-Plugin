@@ -1,0 +1,107 @@
+#toc_container {
+    background-color: #f9f9f9;
+    border: 1px solid #aaa;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.toc_title {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li {
+    list-style: outside none none !important;
+}
+
+.index_title {
+    font-size: 17px;
+}
+
+.index_subtitle {
+    font-size: 15px;
+    padding-left: 20px
+}
+
+.index_link {
+    font-weight: bold;
+}
+
+#course-container {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.card-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contents-container {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.thumbnail-image {
+    border-radius: 5px 5px 0 0 !important;
+    width: 100%;
+    height: auto;
+}
+
+.secondary-text {
+    display: block;
+    color: #a4a4a4;
+    text-align: right;
+    margin: 10px;
+}
+
+.card-title {
+    word-break: break-word;
+    margin: 0 10px;
+    text-align: center;
+    color: #333333;
+}
+
+.card-paragraph {
+    margin: 10px;
+    color: #4c4c4c;
+    text-align: center;
+}
+
+.link-course {
+    padding: 10px;
+    text-align: right;
+}
+
+.card-container:hover .color-hover {
+    display: block;
+}
+
+.color-hover {
+    width: 100%;
+    background-color: #269bd1;
+    border-radius: 0 0 5px 5px;
+    height: 5px;
+    display: none;
+}
+
+@media screen and (max-width: 350px) {
+    .card-container {
+        width: 90%;
+        display: block;
+        margin: 10px auto;
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+}

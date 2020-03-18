@@ -1,0 +1,142 @@
+#copyleft, #general-settings, #index-settings {
+    background-color: #fff;
+    margin: 10px;
+    padding: 5px;
+    -webkit-box-shadow: 0 0 24px -12px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 0 24px -12px rgba(0, 0, 0, .75);
+    box-shadow: 0 0 24px -12px rgba(0, 0, 0, .75)
+}
+
+.title {
+    color: #666;
+    padding-left: 10px
+}
+
+#copyleft-text {
+    text-align: center
+}
+
+.btn-style {
+    padding: 10px 20px;
+    border: 2px solid #0086b3;
+    background-color: #0086b3;
+    color: #fff;
+    display: block;
+    margin: 5px auto
+}
+
+.btn-style:hover {
+    padding: 10px 20px;
+    border: 2px solid #0086b3;
+    background-color: #fff;
+    color: #0086b3;
+    display: block;
+    margin: 5px auto;
+    cursor: pointer
+}
+
+.container {
+    display: block;
+    position: relative;
+    margin-left: 15px;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #eee
+}
+
+.container:hover input~.checkmark {
+    background-color: #ccc
+}
+
+.container input:checked~.checkmark {
+    background-color: #2196F3
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none
+}
+
+.container input:checked~.checkmark:after {
+    display: block
+}
+
+.container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 4px;
+    height: 8px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+#text-shortcode, #text-shortcodepage {
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    width: 100%;
+}
+
+#clickcopy, #clickcopycode {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #666;
+    text-align: center;
+    text-decoration: underline
+}
+
+#clickcopy:hover, #clickcopycode:hover {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #666;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#selector {
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+}
+
+#add_media {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+#add_media:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
